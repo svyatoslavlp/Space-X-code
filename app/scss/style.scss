@@ -1,5 +1,30 @@
-$backgroundColor: rgb(58, 173, 75);
+$backgroundColor:#010001;
+$textColor: #FFFFFF;
 
 body {
     background-color: $backgroundColor;
+    margin: 0;
+    color: $textColor;
+    padding-top: 53px;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    max-width: 1231px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+.item-link {
+    color: $textColor;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
+    line-height: 14px;
 }
