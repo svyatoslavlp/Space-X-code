@@ -10,3 +10,4 @@ var instance = new vidbg(
     // Attributes
   }
 );
+var rellax = new Rellax(".rocket");
